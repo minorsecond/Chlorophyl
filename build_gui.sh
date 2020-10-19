@@ -1,0 +1,1 @@
+/Users/rwardrup/miniconda3/envs/Chlorophyl/bin/pyuic5 ./gui/ui_mainwindow.ui -o ./gui/ui_mainwindow.py
