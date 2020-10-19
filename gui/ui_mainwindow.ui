@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Chlorophyl</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -25,21 +25,21 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="2" column="0">
-        <widget class="QCheckBox" name="checkBox_5">
+        <widget class="QCheckBox" name="HighVegCheckBox">
          <property name="text">
           <string>High Vegetation</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QCheckBox" name="checkBox_4">
+        <widget class="QCheckBox" name="medVegCheckBox">
          <property name="text">
           <string>Medium Vegetation</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0">
-        <widget class="QCheckBox" name="checkBox_3">
+        <widget class="QCheckBox" name="lowVegCheckBox">
          <property name="text">
           <string>Low Vegetation</string>
          </property>
@@ -58,48 +58,48 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="0" column="2">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="inputDirectoryBrowseButton">
          <property name="text">
           <string>Browse</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0">
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="inputDirectoryLabel">
          <property name="text">
           <string>Input Directory:</string>
          </property>
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="inputDirectoryLineEdit"/>
        </item>
        <item row="0" column="3">
-        <widget class="QCheckBox" name="checkBox">
+        <widget class="QCheckBox" name="recursiveSearchCheckbox">
          <property name="text">
           <string>Recursive</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QLabel" name="label_2">
+        <widget class="QLabel" name="outputDirectoryLabel">
          <property name="text">
           <string>Output Directory:</string>
          </property>
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_2"/>
+        <widget class="QLineEdit" name="outputDirectoryLineEdit"/>
        </item>
        <item row="1" column="2">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="outputDirectoryBrowseButton">
          <property name="text">
           <string>Browse</string>
          </property>
         </widget>
        </item>
        <item row="1" column="3">
-        <widget class="QCheckBox" name="checkBox_2">
+        <widget class="QCheckBox" name="fanOutCheckBox">
          <property name="text">
           <string>Fan out</string>
          </property>
@@ -109,7 +109,7 @@
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="processButton">
       <property name="text">
        <string>Process</string>
       </property>
@@ -127,7 +127,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
