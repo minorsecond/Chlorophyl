@@ -2,7 +2,7 @@ from gui import ui_mainwindow
 from PyQt5 import QtWidgets
 
 
-class MainWIndow(QtWidgets.QMainWindow, ui_mainwindow.Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, ui_mainwindow.Ui_MainWindow):
     """
     Main UI Class
     """
