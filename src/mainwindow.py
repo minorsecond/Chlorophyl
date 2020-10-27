@@ -14,6 +14,8 @@ class MainWindow(QtWidgets.QMainWindow, ui_mainwindow.Ui_MainWindow):
         ui_mainwindow.Ui_MainWindow.__init__(self)
         self.setupUi(self)
 
+        self.setMinimumSize(800, 150)
+
         # Connections
         self.processButton.clicked.connect(self.process_button)
         self.inputDirectoryBrowseButton.clicked.connect(self.browse_button_clicked)
